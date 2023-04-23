@@ -1,0 +1,52 @@
+.search {
+    gap: 1rem;
+    padding: 1rem;
+    height: 70vh;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.search ::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+  
+  .search ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .search__bar {
+    background-color: white;
+    width: 30%;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+} 
+
+.card {
+    /* gap: 5rem; */
+    padding: 2rem;
+    height: 50vh;
+    max-height: 100%;
+    /* overflow: auto; */
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: #18475300;
+    border: none;
+    color: white;
+    /* margin: 1rem; */
+}
+
+.card__title {
+    font-size: medium;
+}
+
+.search__barInput {
+    border: none;
+    height: 2rem;
+    width: 100%;
+}
+
+.search__bar input:focus {
+    outline: none;
+}
